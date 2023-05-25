@@ -436,21 +436,19 @@
                     <use href="./images/icons.svg#icon-VectorXXX"></use>
                 </svg>
             </button>
+            <p class="contact-form-htext">Leave your contacts and we will call you back</p>
             <form class="contact-form">
-                <h3 class="contact-form-htext">Leave your contacts and we will call you back</h3>
+                
                 <label class="contact-form-field-wrapper">
                     <span class="contact-form-field-desc">Name</span>
                     <span class="contact-form-input-wrapper">
-                      <input
-                        class="contact-form-input"
-                        type="text"
-                        name="user_first_name"
+                      <input class="contact-form-input" type="text" name="user_first_name"
                         required
-                        pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
-                      />
+                        pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+">
                       <svg class="contact-form-input-icon" aria-label="name" width="12" height="12">
                         <use href="./images/icons.svg#icon-Name"></use>
                     </svg>
+                 </span>
                   </label>
                   <label class="contact-form-field-wrapper">
                     <span class="contact-form-field-desc">Phone</span>
@@ -461,11 +459,11 @@
                         name="user_tel"
                         required
                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-                        title="xxx-xxx-xx-xx"
-                      />
+                        title="xxx-xxx-xx-xx">
                       <svg class="contact-form-input-icon" aria-label="tel" width="12" height="12">
                         <use href="./images/icons.svg#icon-Tel"></use>
                     </svg>
+                </span>
                   </label>
                   <label class="contact-form-field-wrapper">
                     <span class="contact-form-field-desc">Email</span>
@@ -474,11 +472,11 @@
                         class="contact-form-input"
                         type="email"
                         name="user_email"
-                        required
-                      />
+                        required >
                       <svg class="contact-form-input-icon" aria-label="email" width="12" height="12">
                         <use href="./images/icons.svg#icon-Email"></use>
                     </svg>
+                </span>
                   </label>
                   <label class="contact-form-field-wrapper">
                     <span class="contact-form-field-desc">Comment</span>
@@ -487,9 +485,10 @@
                       name="user_message"
                       placeholder="Text input"
                     ></textarea>
+
                   </label>
                   <label class="contact-form-checkbox-wrapper">
-                    <input class="contact-form-checkbox" type="checkbox" name="user_policy" required />
+                    <input class="contact-form-checkbox" type="checkbox" name="user_policy" required>
                     <svg class="contact-form-own-checkbox" width="20" height="20">
                       <use
                         class="contact-form-checkmark-icon"
