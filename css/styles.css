@@ -712,12 +712,14 @@ border-radius: 4px;
 .modal-close-btn:focus .modal-close-icon {
     fill: #ffffff;
 }
-
+.contact-form-wind {
+    margin-bottom: 8px; 
+}
 .contact-form-htext {
-    font-family: Roboto;
+    font-family: var(--font-family-roboto);
     font-weight: 500;
     font-size: 16px;s
-    line-height: 1.5;
+    line-height: 1.5; 
     text-align: center;
     letter-spacing: 0.02em;
 
@@ -735,17 +737,23 @@ border-radius: 4px;
 .contact-form-field-desc {
     font-family: Roboto;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1, 16;
-    letter-spacing: 0.04em;
-
-    color: #8E8F99;
     margin-bottom: 4px;
+    font-size: 12px; 
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
+    color:  #8E8F99;
 }
 
 .contact-form-input-wrapper {
     position: relative;
     display: block;
+    font-size: 12px; 
+    line-height: 1.17; 
+    letter-spacing: 0.04em;
+    color:  #8E8F99;
+    margin-bottom: 4px;
+
+
 }
 
 .contact-form-input {
