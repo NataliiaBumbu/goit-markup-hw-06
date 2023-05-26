@@ -843,7 +843,6 @@ border-radius: 4px;
     padding: 16px 64px;
     gap: 10px;
 
-    width: 169px;
     height: 56px;
     left: 635px;
     top: 584px;
@@ -851,7 +850,7 @@ border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -862,6 +861,10 @@ border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
+    display: block; 
+    min-width: 169px;
+    border: none; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .contact-form-checkbox-wrapper-div {
