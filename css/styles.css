@@ -888,4 +888,11 @@ border-radius: 4px;
     align-items: center;
     justify-content: center;
     fill: transparent;
+    display: inline-flex;
+}
+.contact-form-wind-fif {
+    margin-bottom: 24px;
+}
+.contact-form-wind {
+    margin-bottom: 16px;
 }
