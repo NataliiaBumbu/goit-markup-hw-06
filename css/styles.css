@@ -898,8 +898,8 @@ border-radius: 4px;
 .contact-form-wind-comment
 {margin-bottom: 16px;}
 
-.contact-form-checkmark-icon{
-    opacity: 0;
+/* .contact-form-checkmark-icon{
+    opacity: 1;
      
 }
 .contact-form-own-checkbox-span:checked + .contact-form-own-checkbox> .contact-form-checkmark-icon {
@@ -907,7 +907,7 @@ border-radius: 4px;
     background-color: #404bbf;
     fill:  #ffffff; 
     border-color:#404bbf;
-}
+} */
 
 .contact-form-checkbox {
     appearance: none;
@@ -920,7 +920,6 @@ border-radius: 4px;
     border-radius: 2px;  
     align-items: center;
     justify-content: center;
-    cursor: pointer;
     margin-right: 6px;
     fill: transparent; 
     display: inline-flex; 
