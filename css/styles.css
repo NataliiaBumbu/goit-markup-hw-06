@@ -905,3 +905,14 @@ border-radius: 4px;
     justify-content: center;
     display: inline-flex; 
   }
+  .contact-form-checkbox:checked + .contact-form-checkbox-wrapper > .contact-form-own-checkbox-span {
+    background-color: #404bbf; 
+    border: none; 
+    fill:  #ffffff; 
+    border-color: #404bbf;
+    
+  }
+  .contact-form-checkmark-icon {
+    opacity: 0;
+  }
+  
