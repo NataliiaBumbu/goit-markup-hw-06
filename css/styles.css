@@ -841,6 +841,7 @@ border-radius: 4px;
 
 .privacy {
     margin-left: 2px;
+    color: #4d5ae5;
 }
 
 .contact-form-submit {
@@ -888,11 +889,17 @@ border-radius: 4px;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    display: inline-flex;
+    background-color:#404bbf; 
+    border: none; 
+    fill: #ffffff;
+    border-color:#404bbf;
+    
 }
 .contact-form-wind-fif {
     margin-bottom: 24px;
 }
 .contact-form-wind {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
+.contact-form-wind-comment
+{margin-bottom: 16px;}
