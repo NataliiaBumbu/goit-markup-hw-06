@@ -879,3 +879,13 @@ border-radius: 4px;
 .contact-form-checkbox-wrapper-div {
     margin-bottom: 16px 
 }
+.contact-form-own-checkbox-span {
+    width: 16px; 
+    height: 16px; 
+    border: 1px solid #2e2f42; 
+    border-radius: 2px; 
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
