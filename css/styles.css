@@ -822,8 +822,8 @@ border-radius: 4px;
 }
 
 .contact-form-checkbox-wrapper {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 
     color: #8E8F99;
     font-family: Roboto;
