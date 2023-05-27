@@ -881,10 +881,7 @@ border-radius: 4px;
     margin-bottom: 16px 
 }
 .contact-form-own-checkbox {
-    width: 16px; 
-    height: 16px; 
-    border: 1px solid #2e2f42; 
-    border-radius: 2px; 
+    
     display: inline-flex; 
     align-items: center;
     justify-content: center;
@@ -902,14 +899,29 @@ border-radius: 4px;
 {margin-bottom: 16px;}
 
 .contact-form-checkmark-icon{
-    opacity: 1;
+    opacity: 0;
      
 }
-.contact-form-own-checkbox-span:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
+.contact-form-checkbox:checked + .contact-form-own-checkbox-span > .contact-form-checkmark-icon {
     opacity: 1;
+    background-color: #404bbf;
+    fill:  #ffffff; 
+    border-color:#404bbf;
 }
 
 .contact-form-checkbox {
     appearance: none;
     position: absolute;
+  }
+  .contact-form-own-checkbox-span{
+    width: 16px; 
+    height: 16px; 
+    border: 1px solid #2e2f42; 
+    border-radius: 2px; 
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 6px;
+    fill: transparent; 
   }
